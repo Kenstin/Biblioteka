@@ -1,0 +1,16 @@
+﻿<viewBases:LoginViewBase x:Class="Biblioteka.WPF.Views.LoginView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Biblioteka.WPF.Views"
+             xmlns:reactiveUi="http://reactiveui.net"
+             xmlns:viewModels="clr-namespace:Biblioteka.WPF.ViewModels"
+             xmlns:viewBases="clr-namespace:Biblioteka.WPF.Views.ViewBases"
+             mc:Ignorable="d">
+    <Grid Height="130"  Width="139">
+        <TextBox Name="Username" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox Name="Password" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Name="Login" Content="Zaloguj sie" HorizontalAlignment="Center" Margin="32,73,32,0" VerticalAlignment="Top" Width="75" Style="{DynamicResource SquareButtonStyle}"/>
+    </Grid>
+</viewBases:LoginViewBase>
